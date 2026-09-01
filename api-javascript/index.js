@@ -4,12 +4,9 @@ const PORT = 3000;
 
 app.get("/", (req, res) => {
   res.json({
-    alumno: "Jose Andres de Paz Benito",
-    carnet: "202202525",
-    seccion: "B",
-    api: "API #2",
-    lenguaje: "JavaScript",
-    framework: "Express"
+    Instancia: "Instancia #2 - API #2",
+    Curso: "Seminario de Sistemas 1",
+    Estudiante: "Estudiante - 202202525"
   });
 });
 

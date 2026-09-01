@@ -5,12 +5,9 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return jsonify({
-        "alumno": "Jose Andres de Paz Benito",
-        "carnet": "202202525",
-        "seccion": "B",
-        "api": "API #1",
-        "lenguaje": "Python",
-        "framework": "Flask"
+        "Instancia": "Instancia #1 - API #1",
+        "Curso": "Seminario de Sistemas 1",
+        "Estudiante": "Estudiante - 202202525"
     })
 
 @app.route("/check")
