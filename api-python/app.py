@@ -7,7 +7,7 @@ def index():
     return jsonify({
         "Instancia": "Instancia #1 - API #1",
         "Curso": "Seminario de Sistemas 1",
-        "Estudiante": "Estudiante - 202202525"
+        "Estudiante": "Jose Andres de Paz Benito - 202202525"
     })
 
 @app.route("/check")

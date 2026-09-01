@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
   res.json({
     Instancia: "Instancia #2 - API #2",
     Curso: "Seminario de Sistemas 1",
-    Estudiante: "Estudiante - 202202525"
+    Estudiante: "Jose Andres de Paz Benito - 202202525"
   });
 });
 
